@@ -15,5 +15,4 @@ fs.ensureDirSync(buildPath);
 for(let contract in output){ //write contracts as jsons
 
   fs.outputJsonSync(path.resolve(buildPath, contract.replace(':','') + '.json'), output[contract]);
-
 }
