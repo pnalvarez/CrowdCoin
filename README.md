@@ -1,6 +1,6 @@
 for compiling contracts:
 
-  -----node compile.js
+    ----node compile.js
 
 for deploying contract on rinkeby network:
 
@@ -8,4 +8,4 @@ for deploying contract on rinkeby network:
 
 for running on server:
 
-  -----  npm run dev
+    ----  npm run dev
